@@ -16,3 +16,9 @@ Exec migration before exporting.
 $ php artisan migrate
 $ php artisan db:definition
 ```
+
+## Install
+
+```bash
+$ composer require shibuyakosuke/table-definition-spreadsheet 
+```
