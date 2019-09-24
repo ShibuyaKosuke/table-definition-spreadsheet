@@ -1,0 +1,24 @@
+{
+    "name": "shibuyakosuke/table-definition-spreadsheet",
+    "description": "table-definition-spreadsheet",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "laravel/framework": "5.8.*",
+        "maatwebsite/excel": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shibuyakosuke\\TableDefinition\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shibuyakosuke\\TableDefinition\\Providers\\ConsoleServiceProvider",
+                "Shibuyakosuke\\TableDefinition\\Providers\\ResourceServiceProvider"
+            ]
+        }
+    }
+}
