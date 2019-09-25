@@ -2,6 +2,7 @@
     "name": "shibuyakosuke/table-definition-spreadsheet",
     "description": "Export Table definition to spreadsheet by artisan command",
     "keywords": [
+        "laravel",
         "table definition",
         "excel",
         "spreadsheet",
