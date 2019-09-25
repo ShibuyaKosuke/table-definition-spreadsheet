@@ -1,6 +1,18 @@
 {
     "name": "shibuyakosuke/table-definition-spreadsheet",
     "description": "Export Table definition to spreadsheet by artisan command",
+    "keywords": [
+        "table definition",
+        "excel",
+        "spreadsheet",
+        "mysql"
+    ],
+  "authors": [
+    {
+      "name": "Kosuke Shibuya",
+      "email": "shibuya@imagenious.co.jp"
+    }
+  ],
     "type": "library",
     "license": "MIT",
     "require": {
