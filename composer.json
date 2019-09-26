@@ -1,37 +1,37 @@
 {
-    "name": "shibuyakosuke/table-definition-spreadsheet",
-    "description": "Export Table definition to spreadsheet by artisan command",
-    "keywords": [
-        "laravel",
-        "table definition",
-        "excel",
-        "spreadsheet",
-        "mysql"
-    ],
+  "name": "shibuyakosuke/table-definition-spreadsheet",
+  "description": "Export Table definition to spreadsheet by artisan command",
+  "keywords": [
+    "laravel",
+    "table definition",
+    "excel",
+    "spreadsheet",
+    "mysql"
+  ],
   "authors": [
     {
       "name": "Kosuke Shibuya",
       "email": "shibuya@imagenious.co.jp"
     }
   ],
-    "type": "library",
-    "license": "MIT",
-    "require": {
-        "php": "^7.1",
-        "laravel/framework": "5.8.*",
-        "maatwebsite/excel": "^3.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "Shibuyakosuke\\TableDefinition\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Shibuyakosuke\\TableDefinition\\Providers\\ConsoleServiceProvider",
-                "Shibuyakosuke\\TableDefinition\\Providers\\ResourceServiceProvider"
-            ]
-        }
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.0",
+    "laravel/framework": "5.5.*",
+    "maatwebsite/excel": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shibuyakosuke\\TableDefinition\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shibuyakosuke\\TableDefinition\\Providers\\ConsoleServiceProvider",
+        "Shibuyakosuke\\TableDefinition\\Providers\\ResourceServiceProvider"
+      ]
+    }
+  }
 }
