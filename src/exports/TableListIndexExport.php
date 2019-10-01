@@ -92,7 +92,7 @@ class TableListIndexExport implements FromView, WithEvents
                         'borders' => $this->border
                     ]
                 );
-                $event->sheet->setColWidth(1, 4);
+                $event->sheet->setColWidth(1, 8);
                 $event->sheet->setColWidth(2, 30);
                 $event->sheet->setColWidth(3, 30);
             }

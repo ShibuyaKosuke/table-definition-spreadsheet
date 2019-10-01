@@ -38,12 +38,15 @@ class TableDefinitionExport implements WithMultipleSheets, WithEvents
         $database_name = config('database.connections.mysql.database');
         $tables = InformationSchema::getTables($database_name);
 
+        // Table list
         $sheets[] = new TableListIndexExport($database_name);
 
         $progressBar = $this->output->createProgressBar($tables->count());
 
         $tables->each(function ($table) use ($database_name, &$sheets, &$progressBar) {
             $progressBar->advance();
+
+            // Columns list
             $sheets[] = new TableDefinitionPerTableSheet($database_name, $table);
         });
 

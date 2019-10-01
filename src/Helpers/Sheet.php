@@ -50,7 +50,7 @@ class Sheet
                 return [
                     [
                         'start' => ['column' => 1, 'row' => 2],
-                        'end' => ['column' => 1, 'row' => 7]
+                        'end' => ['column' => 2, 'row' => 7]
                     ],
                     [
                         'start' => ['column' => 1, 'row' => 10],
@@ -69,7 +69,7 @@ class Sheet
                 return [
                     [
                         'start' => ['column' => 1, 'row' => 2],
-                        'end' => ['column' => 4, 'row' => 7]
+                        'end' => ['column' => 5, 'row' => 7]
                     ],
                     [
                         'start' => ['column' => 1, 'row' => 10],

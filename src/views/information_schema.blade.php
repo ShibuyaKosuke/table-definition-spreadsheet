@@ -11,27 +11,27 @@
     <table>
         <tbody>
         <tr>
-            <th>{{ __('table-definition-spreadsheet::table-definition-spreadsheet.system_name') }}</th>
+            <th colspan="2">{{ __('table-definition-spreadsheet::table-definition-spreadsheet.system_name') }}</th>
             <td colspan="3">{{ config('app.name') }}</td>
         </tr>
         <tr>
-            <th>{{ __('table-definition-spreadsheet::table-definition-spreadsheet.sub_system_name') }}</th>
+            <th colspan="2">{{ __('table-definition-spreadsheet::table-definition-spreadsheet.sub_system_name') }}</th>
             <td colspan="3"></td>
         </tr>
         <tr>
-            <th>{{ __('table-definition-spreadsheet::table-definition-spreadsheet.schema_name') }}</th>
+            <th colspan="2">{{ __('table-definition-spreadsheet::table-definition-spreadsheet.schema_name') }}</th>
             <td colspan="3">{{ $table->TABLE_SCHEMA }}</td>
         </tr>
         <tr>
-            <th>{{ __('table-definition-spreadsheet::table-definition-spreadsheet.logical_table_name') }}</th>
+            <th colspan="2">{{ __('table-definition-spreadsheet::table-definition-spreadsheet.logical_table_name') }}</th>
             <td colspan="3">{{ $table->TABLE_COMMENT }}</td>
         </tr>
         <tr>
-            <th>{{ __('table-definition-spreadsheet::table-definition-spreadsheet.physical_table_name') }}</th>
+            <th colspan="2">{{ __('table-definition-spreadsheet::table-definition-spreadsheet.physical_table_name') }}</th>
             <td colspan="3">{{ $table->TABLE_NAME }}</td>
         </tr>
         <tr>
-            <th>{{ __('table-definition-spreadsheet::table-definition-spreadsheet.rdbms') }}</th>
+            <th colspan="2">{{ __('table-definition-spreadsheet::table-definition-spreadsheet.rdbms') }}</th>
             <td colspan="3"></td>
         </tr>
         </tbody>

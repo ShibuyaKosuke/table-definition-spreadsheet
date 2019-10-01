@@ -91,7 +91,7 @@ class TableDefinitionPerTableSheet extends Sheet implements FromView, WithTitle,
                 }
 
                 // Set column width
-                $event->sheet->setColWidth(1, 18);
+                $event->sheet->setColWidth(1, 9);
                 $event->sheet->setColWidth(2, 18);
                 $event->sheet->setColWidth(3, 18);
                 $event->sheet->setColWidth(4, 18);
