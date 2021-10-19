@@ -1,5 +1,9 @@
 # laravel-table-definition-spredsheet
 
+This repository has been out of date!
+
+Use [https://github.com/ShibuyaKosuke/laravel-ddl-export](https://github.com/ShibuyaKosuke/laravel-ddl-export) instead.
+
 Export Table definition to spreadsheet by artisan command
 
 ```bash
